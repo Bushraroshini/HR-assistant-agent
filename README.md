@@ -74,8 +74,8 @@ Local Setup
 
 1. Clone the Repository
 
-git clone https://github.com/yourusername/hr-assistant-agent.git
-cd hr-assistant-agent
+git clone https://github.com/yourusername/HR-assistant-agent.git
+cd HR-assistant-agent
 
 2. Create Virtual Environment
 
@@ -138,8 +138,8 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501"]
 
 Build and run:
 
-docker build -t hr-assistant .
-docker run -p 8501:8501 hr-assistant
+docker build -t HR-assistant .
+docker run -p 8501:8501 HR-assistant
 
 🔄 Potential Improvements
 
@@ -167,5 +167,6 @@ Long-term Vision
 14. Workflow Automation - Automated approval routing
 15. Knowledge Graph - Advanced semantic search
 16. Custom Training - Fine-tune on company-specific data
+
 
 
