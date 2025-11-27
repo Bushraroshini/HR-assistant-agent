@@ -141,25 +141,6 @@ Build and run:
 docker build -t hr-assistant .
 docker run -p 8501:8501 hr-assistant
 
-
-🏗 Architecture
-
-System Flow
-
-User Input → Query Processor → Knowledge Base Search
-                                     ↓
-                                Match Found?
-                                ↙        ↘
-                              Yes         No
-                               ↓           ↓
-                          Return KB      Claude AI
-                           Response      Processing
-                               ↓           ↓
-                              Format Response
-                                    ↓
-                             Display to User
-
-
 🔄 Potential Improvements
 
 Short-term Enhancements
@@ -186,4 +167,5 @@ Long-term Vision
 14. Workflow Automation - Automated approval routing
 15. Knowledge Graph - Advanced semantic search
 16. Custom Training - Fine-tune on company-specific data
+
 
